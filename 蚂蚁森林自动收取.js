@@ -24,6 +24,7 @@ for (var i = 0; i < 150; i++) {
         click(858 + random() * 200, 1543 + random() * 80); // 找能量
     } else {
         sleep(400 + random(-30, 30));
+        i--;
     }
 }
 
